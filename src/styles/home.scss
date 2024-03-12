@@ -1,0 +1,11 @@
+.main-background {
+    background: transparent url("../images/main-background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+.mask {
+    background-color: rgb(26, 26, 26);
+    opacity: .8;
+    height: 100%;
+    width: 100%;
+}
