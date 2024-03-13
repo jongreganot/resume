@@ -1,19 +1,15 @@
 import React from "react"
-import Home from './pages/Home';
-import { setNavbarEvents } from "./behavior/navigation";
+import Layout from './pages/Layout';
+import { setNavbarEvents } from "./behaviors/navigation";
 
 class App extends React.Component {
-    constructor(props) {
-       super(props);
-    }
-
     componentDidMount() {
       setNavbarEvents();
     }
 
     render () {
         return (
-          <Home />
+          <Layout/>
         )
     };
 }

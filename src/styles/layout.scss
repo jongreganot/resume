@@ -11,10 +11,6 @@
     position: absolute;
 }
 
-.container {
-    max-width: 1200px;
-}
-
 .circle-top-icon {
     height: 6px;
     width: 6px;
@@ -39,22 +35,6 @@
     &:hover {
         color: g.$color-primary;
     }
-}
-
-.title-area {
-    top: 29px;
-    left: 100px;
-    position: absolute;
-}
-
-.absolute-margin-left {
-    left: 100px;
-    position: absolute;
-}
-
-.absolute-margin-icon-left {
-    left: 90px;
-    position: absolute;
 }
 
 .side-line {
