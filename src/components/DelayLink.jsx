@@ -6,6 +6,8 @@ const DelayLink = (props) => {
     const navigate = useNavigate();
 
     async function goToPage() {
+      if (props.currentLink === props.linkName) return;
+      
       props.navigateClick(props.linkName);
       await leave();
 
