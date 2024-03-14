@@ -10,6 +10,7 @@ import {
 import Home from "./Home";
 import About from "./About";
 import DelayLink from "../components/DelayLink";
+import businessImg from "../images/business-picture.jpg";
 
 class Layout extends React.Component {
     state = {
@@ -71,7 +72,7 @@ class Layout extends React.Component {
                                             element={<Home />}></Route>
                                     <Route exact
                                             path="/resume/about"
-                                            element={<About />}></Route>
+                                            element={<About businessImg={businessImg} navigateClick={this.navigateClick} />}></Route>
                                 </Routes>
                             </div>
                         </div>
