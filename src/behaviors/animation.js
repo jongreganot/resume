@@ -2,6 +2,8 @@ import $ from "jquery";
 import { wait } from "./utilities";
 
 export const leave = async () => {
+    let divElement = $(".overflow-y-scroll")[0];
+    $(divElement).removeClass("overflow-y-scroll");
     let elements = $(".animate-this");
 
     for (let i = 0; i < elements.length; i++) {
@@ -9,7 +11,7 @@ export const leave = async () => {
 
         // $(element).css({ left: "0", right: "0" }, 400, "swing");
         $(element).animate({ left: "-200px", opacity: "0" }, 400, "swing");
-        await wait(100);
+        await wait(40);
     }
 
     await wait(200);

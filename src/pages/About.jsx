@@ -15,7 +15,8 @@ class About extends React.Component {
             <div className="d-flex flex-column h-90 overflow-y-scroll">
                 <div className="d-flex flex-column">
                     <div className="d-flex flex-row justify-content-center">
-                        <div className="d-flex flex-column col-5">
+                        {/* LEFT */}
+                        <div className="d-flex flex-column col-4">
                             <img src={this.props.businessImg} className="img-fluid profile-picture animate-this"></img>
                             <div className="d-flex flex-row align-items-center gap-4 mb-3 mt-5 animate-this">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="icon" viewBox="0 0 384 512">
@@ -43,7 +44,7 @@ class About extends React.Component {
                                 <p className="fs-small mb-0 animate-this">2008 - 2012</p>
                             </div>
 
-                            <div className="mt-4">
+                            <div className="mt-5">
                                 <p className="fs-extra-large fw-bold mb-0 animate-this">SKILLS</p>
                                 <div className="d-flex flex-row w-90 mt-2 animate-this">
                                     {/* LEFT */}
@@ -94,10 +95,16 @@ class About extends React.Component {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="mt-5 mb-2">
+                                <p className="fs-extra-large fw-bold mb-0 animate-this">CERTIFICATIONS</p>
+                                <p className="fs-normal fw-300 mt-2 mb-0 animate-this">AWS Solutions Architect Associate (SAAC03)</p>
+                                <a className="fs-small text-decoration-none color-link fw-bold animate-this" href="https://www.credly.com/badges/7e4f9155-3846-4272-82b2-3eefb880050d/public_url" target="_blank">See Credly Badge</a>
+                            </div>
                         </div>
 
                         {/* RIGHT */}
-                        <div className="col-7">
+                        <div className="col-8">
                             <div className="pt-2 pb-4 mb-5">
                                 <p className="mb-0 fs-title-4 fw-bold animate-this">JOSHUA ELI C. REGANOT</p>
                                 <p className="mb-0 fs-normal ps-4 mb-1 text-seconday animate-this">Fullstack Web Developer</p>

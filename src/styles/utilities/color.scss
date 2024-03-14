@@ -7,3 +7,11 @@
 .color-secondary {
     color: g.$color-secondary;
 }
+
+.color-link {
+    color: g.$color-link;
+
+    &:hover {
+        color: g.$color-link-hover;
+    }
+}
