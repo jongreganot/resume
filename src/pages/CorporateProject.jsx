@@ -25,18 +25,18 @@ class CorporateProject extends React.Component {
                                 techStack={["AWS Serverless Architecture", ".NET 6", "C#", "AWS Services (S3, DynamoDb, SQS, Lambda, API Gateway)"]} />
                         </div>
                         <div className="d-flex flex-column align-items-center">
-                            <div className="timeline-point"></div>
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-point animate-this"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5 d-flex flex-row">
-                            <p className="mb-0 fs-small fw-bold">P R E S E N T</p>
+                            <p className="mb-0 fs-small fw-bold animate-this">P R E S E N T</p>
                         </div>
                     </div>
                     <FillerLine timePointLeft="APR 2022" />
                     <div className="d-flex flex-row gap-3">
                         <div className="col-5"></div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                             <ProjectItem path="M192 48c0-26.5 21.5-48 48-48H400c26.5 0 48 21.5 48 48V512H368V432c0-26.5-21.5-48-48-48s-48 21.5-48 48v80H192V48zM48 96H160V512H48c-26.5 0-48-21.5-48-48V320H80c8.8 0 16-7.2 16-16s-7.2-16-16-16H0V224H80c8.8 0 16-7.2 16-16s-7.2-16-16-16H0V144c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v48H560c-8.8 0-16 7.2-16 16s7.2 16 16 16h80v64H560c-8.8 0-16 7.2-16 16s7.2 16 16 16h80V464c0 26.5-21.5 48-48 48H480V96H592zM312 64c-8.8 0-16 7.2-16 16v24H272c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h24v24c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V152h24c8.8 0 16-7.2 16-16V120c0-8.8-7.2-16-16-16H344V80c0-8.8-7.2-16-16-16H312z"
@@ -62,7 +62,7 @@ class CorporateProject extends React.Component {
                                 techStack={[".NET 3.1", "C#", "WPF", "MSSQL"]} />
                         </div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                         </div>
@@ -71,7 +71,7 @@ class CorporateProject extends React.Component {
                     <div className="d-flex flex-row gap-3">
                         <div className="col-5"></div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                         <ProjectItem path="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"
@@ -97,7 +97,7 @@ class CorporateProject extends React.Component {
                                 techStack={[".NET Core", "C#", "MSSQL"]} />
                         </div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                         </div>
@@ -106,7 +106,7 @@ class CorporateProject extends React.Component {
                     <div className="d-flex flex-row gap-3">
                         <div className="col-5"></div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                         <ProjectItem path="M64 32C46.3 32 32 46.3 32 64V304v48 80c0 26.5 21.5 48 48 48H496c26.5 0 48-21.5 48-48V304 152.2c0-18.2-19.4-29.7-35.4-21.1L352 215.4V152.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4V64c0-17.7-14.3-32-32-32H64z"
@@ -132,7 +132,7 @@ class CorporateProject extends React.Component {
                                 techStack={["C#", ".NET", "Winforms", "MSSQL"]} />
                         </div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                         </div>
@@ -141,7 +141,7 @@ class CorporateProject extends React.Component {
                     <div className="d-flex flex-row gap-3">
                         <div className="col-5"></div>
                         <div className="d-flex flex-column align-items-center timeline-line-container">
-                            <div className="timeline-line h-100"></div>
+                            <div className="timeline-line h-100 animate-this"></div>
                         </div>
                         <div className="col-5">
                             <ProjectItem path="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"

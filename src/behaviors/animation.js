@@ -10,10 +10,9 @@ export const leave = async () => {
         let element = elements[i];
 
         $(element).animate({ left: "-200px", opacity: "0" }, 400, "swing");
-        await wait(40);
     }
 
-    await wait(200);
+    await wait(400);
 }
 
 export const enter = async () => {
