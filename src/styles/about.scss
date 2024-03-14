@@ -11,18 +11,6 @@
     border-radius: 50%;
 }
 
-.timeline-point {
-    height: 11px;
-    width: 11px;
-    border-radius: 50%;
-    border: 1px solid g.$color-primary;
-}
-
-.timeline-line {
-    border-right: 1px solid g.$color-primary;
-    position: relative;
-}
-
 .emphasis-border {
     border-left: 5px solid g.$color-tertiary;
 }
