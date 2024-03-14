@@ -1,8 +1,7 @@
 import React from "react"
 import { enter } from "../behaviors/animation";
-import "../styles/my-utilities.scss";
-import "../styles/about.scss";
 import SkillBar from "../components/SkillBar";
+import "../styles/about.scss";
 
 class About extends React.Component {
     componentDidMount() {
@@ -16,7 +15,7 @@ class About extends React.Component {
                 <div className="d-flex flex-column">
                     <div className="d-flex flex-row justify-content-center">
                         {/* LEFT */}
-                        <div className="d-flex flex-column col-4">
+                        <div className="d-flex flex-column col-5">
                             <img src={this.props.businessImg} className="img-fluid profile-picture animate-this"></img>
                             <div className="d-flex flex-row align-items-center gap-4 mb-3 mt-5 animate-this">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="icon" viewBox="0 0 384 512">
@@ -104,7 +103,7 @@ class About extends React.Component {
                         </div>
 
                         {/* RIGHT */}
-                        <div className="col-8">
+                        <div className="col-7">
                             <div className="pt-2 pb-4 mb-5">
                                 <p className="mb-0 fs-title-4 fw-bold animate-this">JOSHUA ELI C. REGANOT</p>
                                 <p className="mb-0 fs-normal ps-4 mb-1 text-seconday animate-this">Fullstack Web Developer</p>

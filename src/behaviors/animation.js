@@ -9,7 +9,6 @@ export const leave = async () => {
     for (let i = 0; i < elements.length; i++) {
         let element = elements[i];
 
-        // $(element).css({ left: "0", right: "0" }, 400, "swing");
         $(element).animate({ left: "-200px", opacity: "0" }, 400, "swing");
         await wait(40);
     }

@@ -1,5 +1,4 @@
 import React from "react"
-import "../styles/my-utilities.scss";
 import { enter } from "../behaviors/animation";
 
 class Home extends React.Component {

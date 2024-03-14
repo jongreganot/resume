@@ -11,7 +11,7 @@ const DelayLink = (props) => {
       props.navigateClick(props.linkName);
       await leave();
 
-      navigate(`/resume/${props.linkName.toLowerCase()}`);
+      navigate(`/resume/${props.linkName.toLowerCase().replace(" ", "-")}`);
     }
 
     return (
