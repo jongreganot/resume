@@ -2,7 +2,7 @@ import React from "react"
 
 const FillerLine = (props) => {
     return (
-        <div style={{height: "80px"}} className="d-flex flex-row gap-3">
+        <div style={{height: "80px"}} className="d-lg-flex d-none flex-row gap-3">
             <div className="col-5 d-flex flex-row align-items-end justify-content-end">
                 <p className={`mb-0 text-end fs-small fw-bold ${props.timePointLeft ? "animate-this" : ""}`}>{props.timePointLeft}</p>
             </div>

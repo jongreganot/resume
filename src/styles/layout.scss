@@ -2,7 +2,7 @@
 @import url("../styles/my-utilities.scss");
 
 .main-background {
-    background: transparent url("../images/main-background.jpg") no-repeat fixed center;
+    background: transparent url("../images/main-background.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -75,5 +75,12 @@
 
     &.active {
         color: g.$color-primary;
+    }
+}
+
+@media (max-width: 390px) {
+    .circle-main-icon {
+        height: 8px;
+        width: 8px;
     }
 }

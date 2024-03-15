@@ -14,3 +14,10 @@
 .emphasis-border {
     border-left: 5px solid g.$color-tertiary;
 }
+
+@media (max-width: 390px) {
+    .profile-picture {
+        height: 120px;
+        width: 120px;
+    }
+}
