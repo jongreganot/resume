@@ -119,7 +119,7 @@ class About extends React.Component {
                             </div>
                             <div className="mt-5">
                                 <p className="fs-extra-large fw-bold mt-4 mb-3 animate-this">PROFILE</p>
-                                <p className="mb-0 fs-small w-50 animate-this">Software developer with over 12 years of professional C# .NET
+                                <p className="mb-0 fs-small w-md-50 animate-this">Software developer with over 12 years of professional C# .NET
                                     experience. I'm always looking for ways to improve myself everyday
                                     to be the best developer that I can be.
                                 </p>
@@ -131,27 +131,27 @@ class About extends React.Component {
                                                         duration="Apr 2022 - Present"
                                                         company="Merkle"
                                                         jobTitle="Software Developer"
-                                                        experience="This is when I took interest in the AWS Cloud Platform since I was working daily with AWS Serverless Architecture Services." />
+                                                        experience="I became a certified AWS Software Architect Associate." />
                                     <WorkExperienceItem addFillerHeight={true}
                                                         duration="Apr 2018 - Apr 2022"
                                                         company="CSAM Philippines"
                                                         jobTitle="Software Developer"
-                                                        experience="This is when I found the most meaning in software development because we were developing Healthcare Products." />
+                                                        experience="I was able to create an map with the geolocation points of the response vehicles (ambulance, helicopters, boats, etc.)" />
                                     <WorkExperienceItem addFillerHeight={true}
                                                         duration="Apr 2015 - Apr 2018"
                                                         company="Accenture"
                                                         jobTitle="Software Developer"
-                                                        experience="This is when I got exposed to fullstack web development." />
+                                                        experience="I was able to deliver my tasks on time and with minimal help with my fullstack web developer skillset." />
                                     <WorkExperienceItem addFillerHeight={true}
                                                         duration="Aug 2012 - Apr 2015"
                                                         company="NPAX Cebu Corporation"
                                                         jobTitle="Junior Developer"
-                                                        experience="This is when I learned how to deal with clients because I was sent to Manila to train the clients on how to use our system." />
+                                                        experience="I was part of a small team that developed an HR software application. And we were able to close a deal with the client in Manila." />
                                     <WorkExperienceItem addFillerHeight={true}
                                                         duration="Oct 2011 - Aug 2012"
                                                         company="Remote Technology Solutions"
                                                         jobTitle="Intern Developer"
-                                                        experience="This is the company with the most interesting software project that I have been on." />
+                                                        experience="I was part of a small team of fresh graduates that was able to build a modern-looking interface for the underwater surveillance system. Although the project was cut short but it was a door that welcomed me to the IT industry." />
                                     <WorkExperienceItem addFillerHeight={true}
                                                         isPointStart={true} />
                                 </div>
