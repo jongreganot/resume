@@ -11,7 +11,7 @@ class Home extends React.Component {
             <div className="d-flex flex-column h-100">
                 <div style={{height: "10%"}}></div>
                 <div className="d-flex flex-column">
-                    <p className="mb-0 fs-normal animate-this">Fullstack Software Developer</p>
+                    <p className="mb-0 fs-normal animate-this">Fullstack Web Developer</p>
                     <p className="mb-0 fs-title animate-this">Joshua</p>
                     <p className="mb-5 fs-title animate-this">Reganot 
                         <span className="color-primary">
