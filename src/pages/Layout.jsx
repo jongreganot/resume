@@ -28,10 +28,10 @@ class Layout extends React.Component {
     render () {
         return (
             <Router>
-                <div className="main-background p-lg-5 py-5 px-3">
+                <div className="main-background p-md-5 py-5 px-3">
                     <div className="mask"></div>
-                    <div className="d-flex flex-row position-relative px-lg-5 h-100">
-                        <div className="col-2 d-none d-lg-flex flex-column justify-content-start align-items-start">
+                    <div className="d-flex flex-row position-relative px-md-5 h-100">
+                        <div className="col-2 d-none d-md-flex flex-column justify-content-start align-items-start">
                             <p className="mb-0 fs-normal">
                                 Joshua Reganot 
                                 <span className="color-primary">
@@ -56,17 +56,17 @@ class Layout extends React.Component {
                             </svg>
                             <div className="border-left side-line mt-4"></div>
                         </div>
-                        <div className="col-lg-10 col-12 d-flex flex-column">
+                        <div className="col-md-10 col-12 d-flex flex-column">
                             <div className="d-flex flex-column h-100">
                                 <nav className="position-relative">
-                                    <div className="d-flex flex-row justify-content-lg-between">
+                                    <div className="d-flex flex-row justify-content-md-between">
                                         <ul className="d-flex flex-row justify-content-around align-items-center fs-small p-0 fw-bold">
                                             <DelayLink linkName="Home" currentLink={this.state.currentLink} navigateClick={this.navigateClick} />
                                             <DelayLink linkName="About" currentLink={this.state.currentLink} navigateClick={this.navigateClick} />
                                             <DelayLink linkName="Corporate Projects" currentLink={this.state.currentLink} navigateClick={this.navigateClick} />
                                             <DelayLink linkName="Personal Projects" currentLink={this.state.currentLink} navigateClick={this.navigateClick} />
                                         </ul>
-                                        <p className="mb-0 fs-normal d-lg-block d-none">joshuareganot@gmail.com</p>
+                                        <p className="mb-0 fs-normal d-md-block d-none">joshuareganot@gmail.com</p>
                                     </div>
                                 </nav>
                                 <div style={{height: "10%"}}></div>

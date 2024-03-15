@@ -16,13 +16,14 @@ class About extends React.Component {
                 <div className="d-flex flex-column">
                     <div className="d-flex flex-row flex-wrap justify-content-center">
                         {/* LEFT */}
-                        <div className="d-flex flex-column col-lg-5 col-12">
-                            <div className="d-flex flex-row justify-content-lg-start justify-content-center pe-lg-0 pe-5">
+                        <div className="d-flex flex-column col-md-5 col-12">
+                            <div className="d-flex flex-row justify-content-md-start justify-content-center">
                                 <img src={this.props.businessImg} className="img-fluid profile-picture animate-this"></img>
                             </div>
-                            <div className="py-2 d-lg-none d-block mt-3">
-                                <p className="mb-0 fs-title-4 fw-bold animate-this">JOSHUA ELI C. REGANOT</p>
-                                <p className="mb-0 fs-normal text-center pe-5 mb-1 text-seconday animate-this">Fullstack Web Developer</p>
+                            <div className="py-2 d-md-none d-block mt-3">
+                                <p className="mb-0 fs-title-4 text-center fw-bold animate-this">JOSHUA ELI C. REGANOT</p>
+                                <p className="mb-0 fs-normal text-center mb-1 text-seconday animate-this">Fullstack Web Developer</p>
+                                <div className="border-bottom mt-4 animate-this"></div>
                             </div>
                             <div className="d-flex flex-row align-items-center gap-4 mb-3 mt-5 animate-this">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="icon" viewBox="0 0 384 512">
@@ -110,8 +111,8 @@ class About extends React.Component {
                         </div>
 
                         {/* RIGHT */}
-                        <div className="col-lg-7">
-                            <div className="pt-2 pb-4 mb-5 d-lg-block d-none">
+                        <div className="col-md-7">
+                            <div className="pt-2 pb-4 mb-5 d-md-block d-none">
                                 <p className="mb-0 fs-title-4 fw-bold animate-this">JOSHUA ELI C. REGANOT</p>
                                 <p className="mb-0 fs-normal ps-4 mb-1 text-seconday animate-this">Fullstack Web Developer</p>
                                 <div className="border-bottom w-50 mt-4 animate-this"></div>

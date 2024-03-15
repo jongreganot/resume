@@ -6,10 +6,10 @@ const ProjectItem = (props) => {
     let halfPoint = Math.round(props.techStack.length / 2);
     return (
         <div className="d-flex flex-row justify-content-center project-item py-5 px-3 animate-this">
-            <div className="col-2 d-lg-flex d-none flex-row justify-content-center">
+            <div className="col-2 d-md-flex d-none flex-row justify-content-center">
                 <Icon iconClass="project-icon" path={props.path} />
             </div>
-            <div className="ps-3 col-lg-10 col-12">
+            <div className="ps-3 col-md-10 col-12">
                 <p className={`mb-0 fs-large fw-bold ${props.type ? "": "color-primary"}`}>{props.title}</p>
                 <p className={`mb-0 fs-small fw-300 color-secondary ${props.duration ? "d-block": "d-none"}`}>{props.duration}</p>
                 <p className={`mb-0 fs-small color-primary fw-300 ${props.type ? "d-block": "d-none"}`}>{props.type}</p>
