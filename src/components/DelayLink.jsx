@@ -15,7 +15,7 @@ const DelayLink = (props) => {
     }
 
     return (
-        <div onClick={goToPage} className={`nav-item resume-link text-decoration-none px-md-4 px-3 text-center text-uppercase cursor-pointer ${props.currentLink === props.linkName ? "active": ""}`}>{props.linkName}</div>
+        <div onClick={goToPage} className={`nav-item resume-link text-decoration-none px-md-0 pe-md-5 px-3 text-center text-uppercase cursor-pointer ${props.currentLink === props.linkName ? "active": ""}`}>{props.linkName}</div>
   )
 };
 
