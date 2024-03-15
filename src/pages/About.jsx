@@ -119,7 +119,7 @@ class About extends React.Component {
                             </div>
                             <div className="mt-5">
                                 <p className="fs-extra-large fw-bold mt-4 mb-3 animate-this">PROFILE</p>
-                                <p className="mb-0 fs-small w-md-50 animate-this">Software developer with over 12 years of professional C# .NET
+                                <p className="mb-0 fs-small col-md-6 animate-this">Software developer with over 12 years of professional C# .NET
                                     experience. I'm always looking for ways to improve myself everyday
                                     to be the best developer that I can be.
                                 </p>
