@@ -28,7 +28,7 @@ class PersonalProject extends React.Component {
                 <ProjectItem path="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM240 80a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM208 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm-64-64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"
                             title="Basketball"
                             description="I created this website for our basketball league."
-                            techStack={["React", "React Router v6", "HTML", "SCSS", "JQuery", "Javascript"]}
+                            techStack={["React", "React Router v6", "HTML", "SCSS", "JQuery", "Javascript", "S3 Static Website Hosting"]}
                             link="http://basketball-league.s3-website-ap-northeast-1.amazonaws.com/" />
 
             </div>
